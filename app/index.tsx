@@ -5,6 +5,9 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 
 
+
+
+
 export default function App() {
 
     // const {isLogged,loading} = useGlobalContext()

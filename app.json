@@ -1,27 +1,26 @@
 {
   "expo": {
-    "name": "React App",
-    "slug": "ReactNative",
+    "name": "Yola",
+    "slug": "Yola",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/previous_app_icon.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/app_icon.png",
+      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.Test.reactnative"
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.Test.reactnative",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jamil3251.yola"
     },
     "web": {
       "bundler": "metro",
@@ -36,7 +35,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "a7a5a22c-8358-4b93-9c60-cfcf61f91bdb"
+        "projectId": "2704d741-0c6f-417a-8545-b2b52a402cff"
       }
     }
   }
