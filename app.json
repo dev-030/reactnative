@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "React App",
+    "slug": "ReactNative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/previous_app_icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/app_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Test.reactnative"
+    },
+    "android": {
+      "package": "com.Test.reactnative",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a7a5a22c-8358-4b93-9c60-cfcf61f91bdb"
+      }
+    }
+  }
+}
